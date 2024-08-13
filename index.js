@@ -20,3 +20,13 @@ function generate(){
         resultEl2.textContent += characters[randomness2]
     }
 }
+
+function copyToClipboard(elementId) {
+    var element = document.getElementById(elementId);
+    var text = element.innerText;
+    navigator.clipboard.writeText(text).then(function() {
+        alert("Text copied to clipboard: " + text);
+    }).catch(function(err) {
+        console.error("Failed to copy text: ", err);
+    });
+}
