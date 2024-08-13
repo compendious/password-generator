@@ -20,6 +20,3 @@ function generate(){
         resultEl2.textContent += characters[randomness2]
     }
 }
-    
-
-
