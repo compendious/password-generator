@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    max-width: 550px;
+    max-width: 550px;
+    background: #1F2937;
+    color: white;
+}
+h1 {
+    font-family: "Karla", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    text-align: left;
+}
+
+h1.green {
+    color: #10B981;
+}
+
+h5 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #D5D4D8;
+
+}
+
+button {
+    width: Hug (191px)px;
+    height: Hug (42px)px;
+    top: 284px;
+    left: 52px;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    border-radius: 6px;
+    border-style: none;
+    opacity: 0px;    
+    background-color: #10B981;
+
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+
+button.navy{
+    color: #55F991;
+    background-color: #273549;
+}
+
+hr {
+    width: 446px;
+    height: 0px;
+    top: 361px;
+    left: 52px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    angle: -0 deg;
+}
