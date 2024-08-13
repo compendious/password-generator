@@ -61,6 +61,16 @@ button.navy{
     background-color: #273549;
 }
 
+button:active {
+    color: #55F991;
+    background-color: white;
+}
+
+button.navy:active {
+    color: #273549;
+    background-color: #55F991;
+}
+
 hr {
 border: 1px solid #2F3E53;
 
